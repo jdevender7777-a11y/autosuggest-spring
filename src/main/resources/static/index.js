@@ -1,2 +1,2 @@
-// alert("HELLO FROM EARTH !");
-console.log("hello from earth");
+ alert("HELLO FROM EARTH !");
+ 
