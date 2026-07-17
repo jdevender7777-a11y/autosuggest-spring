@@ -1,1 +1,1 @@
-alert("u r on wrong planet");
+alert("HELLO FROM EARTH !");
