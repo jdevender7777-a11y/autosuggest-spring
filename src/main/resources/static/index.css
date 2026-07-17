@@ -1,6 +1,5 @@
 body{
     margin:0px;
-    background-colur:pink;
 
 }
 
@@ -10,10 +9,10 @@ body{
     border-color:wheat;
     padding :20px;
     text-align:center;
+    background-color:blanchedalmond;
 }
 .navbar a{
     padding:20px;
     text-decoration:none;
     color:black;
-    text-color: grey;
 }
