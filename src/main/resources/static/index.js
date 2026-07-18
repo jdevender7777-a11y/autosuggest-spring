@@ -1,2 +1,2 @@
- alert("HELLO FROM EARTH !");
+ alert("only for vnrvjiet students!");
  
