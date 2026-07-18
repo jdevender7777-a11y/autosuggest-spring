@@ -23,7 +23,7 @@ body{
 }
 .navbar a:hover{
       color:blue;
-    background-color:grey;
+    background-color:lightcyan;
 }
 .card{
     border:1px solid black;
