@@ -1,13 +1,13 @@
 body{
     margin:0px;
-    background-color:azure;
+    background-color:lightblue;
 
 }
 
 .navbar{
     border-style:solid;
     border-width: 2px;
-    border-color:black;
+    border-color:white;
     padding :20px;
     text-align:center;
 }
