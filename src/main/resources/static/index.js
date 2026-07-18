@@ -29,13 +29,15 @@
     id=(id+1)%users.length;
     var userimage=document.getElementById("user-image");
     userimage.src=users[id].img;
+
     var username=document.getElementById("user-name");
     username.innerHTML=users[id].name;
+
     var usergender=document.getElementById("user-gender");
     usergender.innerHTML=users[id].gender;
  }
 
- funtcion randomuser(){
+function randomuser(){
        fetch('https://randomuser.me/api')
        .then(function (response){
           return response.json();
