@@ -14,7 +14,7 @@ body{
 .navbar a{
     padding:20px;
     text-decoration:none;
-    color:greenyellow;
+    color:weakblue;
     font-weight: 500;
     font-size: 20px;
     letter-spacing: 1px;
@@ -22,42 +22,31 @@ body{
     transition: all 0.3s ease;
 }
 .navbar a:hover{
-      color:greenyellow;
+      color:blue;
     background-color:grey;
 }
 .card{
-    border-style: 1px solid black;
+    border:1px solid black;
     border-radius:30px;
     text-align:center;
-    padding:20px;
     margin-top:70px;
     width:350px;
     margin-left:auto;
     margin-right:auto;
     box-shadow: 0px 0px 10px 5px grey;
     padding-bottom:20px;
-    background-color:black;
+    background-color:white;
+    overflow:hidden;
 }
 .card img{
     width:100%;
-    height:200px;
-    border-radius:50%;
-    margin-top:-100px;
-}
-
-.card h3{
-    color:black;
-    font-size: 30px;
-    font-weight: 200;
 }
 .card button{
     padding:10px;
     border-radius: 10px;
-    border:none;
-    background-color:white;
-    color:black;
-    font-weight: 600;
-    font-size: 20px;
+    background-color:rgb(206, 196, 196);
     border-radius:8 px;
+    border-style:none;
+    width: 200px;
 
 }
