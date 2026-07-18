@@ -42,7 +42,7 @@ function randomuser(){
        .then(function (response){
           return response.json();
        })
-       .then(function(data))
+       .then(function(data)
        {
           var userdata=data.results[0];
           var userimage=document.getElementById("user-image");
@@ -53,6 +53,7 @@ function randomuser(){
          var usergender=document.getElementById("user-gender");
          usergender.innerHTML=userdata.gender;
        }
+    )
        .catch(function(err)
        {
          console.log(err);
